@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Todos</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4">Todo list</h1>
+        <form class="search">
+          <lable class="text-light">Search Todos...</lable>
+          <input type="text" class="form-control my-1 m-auto" name="search" />
+        </form>
+      </header>
+
+      <ul class="list-group todos mx-auto text-light">
+        <!-- <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Code some JavaScript</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Play Dead cells</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Watch Yu YU Hakusho</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Read Kaiju No 8</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li> -->
+      </ul>
+
+      <form class="add text-center my-4">
+        <lable class="text-light">Add a new Todo...</lable>
+        <input type="text" class="form-control my-2" name="add" />
+        <button class="my-3 px-4 btn btn-light">Add</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
